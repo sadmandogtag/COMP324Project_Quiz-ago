@@ -37,20 +37,26 @@
     </div>
   </nav>
 </header>
-<div class="container col-xl-10 px-4 py-5 shadow-lg p-3 mb-5 bg-chocolate rounded">
-  <div class="row align-items-center g-5 py-5">
-    <div class="col-lg-6">
-      <h1 class="display-5 fw-bold lh-1 mb-3 bigTitle">Enjoy Yourself.</h1>
-      <p class="lead lightText">Bored and don't know what to do? Explore the city of Chicago and enjoy your night out.</p>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-        <a href="/register"><button type="button" class="btn btn-primary btn-lg">Register Today</button></a>
-        <a href="/login"><button type="button" class="btn btn-primary btn-lg ml-2">Login</button></a>
-      </div>
-    </div>
-    <div class="col-10 col-sm-8 col-lg-6">
-      <img class="d-block mx-lg-auto img-fluid imgDropShadow" src="chicago.jpg" alt="Chat Example Picture" width="720">
-    </div>
-  </div>
+<h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
 </div>
 </body>
 </html>
