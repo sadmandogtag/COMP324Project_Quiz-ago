@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Just Testing the integration with various things. Not sure if this is the best way forward or not.-->
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Tabs-Script.js" defer> </script>
+    <script data-main="Travel.js" src="require.js"></script>
+    <script type="module" src ="Travel.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'>
+
+</head>
+<body>
+<header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <div class="container">
+            <a class="navbar-brand mr-4" href="welcome.html"><img src="chicagologo.png" style="width:55px;height:55px;overflow:hidden;margin-top:-3px;border-radius:50%;"></a>
+            <a class="navbar-brand mr-4" href="welcome.html">Chicago</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggle">
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link" href="Quiz.html">Quiz</a>
+                    <a class="nav-item nav-link" href="Food.html">Food</a>
+                    <a class="nav-item nav-link" href="Activities.html">Activities</a>
+                    <a class="nav-item nav-link" href="welcome.html">Home</a>
+                    <a class="nav-item nav-link" href="Profile.html">Profile</a>
+                    <a class="nav-item nav-link" href="FAQ.html">FAQ</a>
+                    <a class="nav-item nav-link" href="ContactUs.html">Contact Us</a>
+                    <a class="nav-item nav-link" href="Login.html">Login</a>
+                    <a class="nav-item nav-link" href="Logout.html">Logout</a>
+                    <a class="nav-item nav-link" href="Tabs.html">Top Locations</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container col-xl-10 px-4 py-5 shadow-lg p-3 mb-5 bg-chocolate rounded">
+    <div class="row align-items-center g-5 py-5">
+        <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3 bigTitle">Enjoy Yourself.</h1>
+            <p class="lead lightText">Bored and don't know what to do? Explore the city of Chicago and enjoy your night out.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <a href="/register"><button type="button" class="btn btn-primary btn-lg">Register Today</button></a>
+                <a href="/login"><button type="button" class="btn btn-primary btn-lg ml-2">Login</button></a>
+            </div>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-6">
+            <img class="d-block mx-lg-auto img-fluid imgDropShadow" src="chicago.jpg" alt="Chat Example Picture" width="720">
+        </div>
+    </div>
+</div>
+</body>
+</html>
